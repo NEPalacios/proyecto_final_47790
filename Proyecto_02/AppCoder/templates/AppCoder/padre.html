@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Página</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #4285f4;
+            color: #ffffff;
+            padding: 10px;
+            text-align: center;
+        }
+
+        section {
+            margin: 20px;
+        }
+
+        footer {
+            background-color: #4285f4;
+            color: #ffffff;
+            padding: 10px;
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Mi Página</h1>
+    </header>
+
+    <section>
+        <h2>Bienvenido a mi página</h2>
+        <p>Esta es una página de ejemplo. Puedes agregar tu contenido aquí.</p>
+        <p style= "color: red">mi nombre es: {{ nombre }} </p>
+        <p style= "color: blue">mi apellido es: {{ apellido }} </p>
+    </section>
+
+    <footer>
+        <p>© 2023 Mi Página. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
